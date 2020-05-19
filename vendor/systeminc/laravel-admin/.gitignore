@@ -1,0 +1,5 @@
+vendor
+node_modules
+bower_componenets
+php_code_quality
+.idea
