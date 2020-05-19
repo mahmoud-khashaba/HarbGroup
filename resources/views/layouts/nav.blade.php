@@ -1,7 +1,6 @@
-
 		<body>	
 			  <header id="header" id="home">
-		  		<div class="header-top">
+		  		<!-- <div class="header-top">
 		  			<div class="container">
 				  		<div class="row">
 				  			<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
@@ -17,17 +16,16 @@
 				  				<a href="mailto:support@colorlib.com">support@colorlib.com</a>				
 				  			</div>
 				  		</div>			  					
-		  			</div>
+		  			</div> -->
 				</div>
 			    <div class="container main-menu">
-			    	<div class="row align-items-center justify-content-between d-flex">
+			    	<div class="row align-items-center justify-content-between d-flex ar-nav">
 				      <div id="logo">
-				        <a href="index.html"><img src="/img/logo.png" alt="" title="" /></a>
+				        <a href="/">حرب جروب</a>
 				      </div>
-				      <nav id="nav-menu-container">
+				      <nav id="nav-menu-container ar-menu">
 				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="index.html">الرئيسية</a></li>
-				          
+				        <li><a href="/contact">تواصل معنا</a></li>
 						  <li class="menu-has-children"><a href="/services">خدماتنا</a>
 				            <ul>
 								@foreach($menus as $menu)
@@ -46,8 +44,6 @@
 								@foreach($services as $service)
 								<li><a href="/services/{{$service->slug}}">{{$service->title}}</a></li>
 								@endforeach
-								
-		
 				            </ul>
 				          </li>
 						  <li class="menu-has-children"><a href="/projects">أعمال الشركة</a>
@@ -59,8 +55,9 @@
 
 							</ul>
 						</li>	
-						  <li><a href="about.html">عن الشركة</a></li>
-				          <li><a href="contact.html">تواصل معنا</a></li>
+						  <li><a href="/about">عن الشركة</a></li>
+						  
+						  <li class="menu-active"><a href="/">الرئيسية</a></li>
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>

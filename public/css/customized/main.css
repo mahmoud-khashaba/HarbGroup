@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Cairo', sans-serif;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden
+}
+
+.ar-nav{
+    direction: rtl;
+    font-size: 25px!important;
+}
+
+
+.intro-main h6{
+    font-size: 40px;
+    letter-spacing: 0;
+    font-weight: 800;
+}
+
+.intro-main h1{
+    font-weight: 500
+}
+
+.intro-main p{
+    font-size: 18pt;
+    line-height: normal;
+
+}

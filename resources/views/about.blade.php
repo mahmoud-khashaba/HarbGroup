@@ -20,6 +20,7 @@
 			<!--
 			CSS
 			============================================= -->
+			<link rel="stylesheet" href="/css/customized/main.css">
 			<link rel="stylesheet" href="css/linearicons.css">
 			<link rel="stylesheet" href="css/font-awesome.min.css">
 			<link rel="stylesheet" href="css/bootstrap.css">

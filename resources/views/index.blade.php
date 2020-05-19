@@ -6,15 +6,15 @@
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
 					<div class="row fullscreen d-flex align-items-center justify-content-center">
-						<div class="banner-content col-lg-12 col-md-12">
-							<h6 class="text-uppercase">Don’t look further, here is the key</h6>
+						<div class="banner-content col-lg-12 col-md-12 intro-main">
+							<h6>لا تنظر بعيدًا، اليك السر</h6>
 							<h1>
-								We’re Industrial solution			
+							الدقة والإلتزام في الصناعة وفي توقيت التنفيذ والتسليم
 							</h1>
 							<p class="text-white">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua. Ut enim ad minim.  sed do eiusmod tempor incididunt.
+								 منذ اكثر من عشر اعوام نشأت شركة حرب جروب لتوفير معدات الصناعة<br>ننمو بفضل التزامنا ونسعي للوصول للمركز الأول في صناعة الحديد الزخرفي في مصر
 							</p>
-							<a href="#" class="primary-btn header-btn text-uppercase">Get Started</a>
+							<a href="#" class="primary-btn header-btn text-uppercase">المزيد</a>
 						</div>												
 					</div>
 				</div>
@@ -22,7 +22,7 @@
 			<!-- End banner Area -->
 
 			<!-- Start cat Area -->
-			<section class="cat-area section-gap" id="feature">
+			<!-- <section class="cat-area section-gap" id="feature">
 				<div class="container">							
 					<div class="row">
 						<div class="col-lg-4">	
@@ -54,12 +54,12 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End cat Area -->		
 			
 
 			<!-- Start home-about Area -->
-			<section class="home-about-area section-gap" id="about">
+			<!-- <section class="home-about-area section-gap" id="about">
 				<div class="container">
 					<div class="row justify-content-center align-items-center">
 						<div class="col-lg-8 col-md-12 home-about-left">
@@ -95,7 +95,7 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End home-about Area -->
 					
 
@@ -104,32 +104,21 @@
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 pb-30 header-text text-center">
-							<h1 class="mb-10">Our Capturing Market Sectors</h1>
+							<h1 class="mb-10">مجالات ابدعنا بها</h1>
 							<p>
-								Who are in extremely love with eco friendly system..
+								..بشهادة جميع عملائنا
 							</p>
 						</div>
 					</div>						
 					<div class="row">
 						<div class="col-lg-4">
-							<div class="single-service">
+							<div class="single-service ">
 								<div class="thumb">
 									<img src="img/s1.jpg" alt="">									
 								</div>
-								<h4>Automotive Engineering</h4>
-								<p>
-									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div class="single-service">
-								<div class="thumb">
-									<img src="img/s2.jpg" alt="">									
-								</div>
-								<h4>Construction & Engineering</h4>
-								<p>
-									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
+								<h4 class="text-center">معدات التشيد والبناء</h4>
+								<p class="text-right">
+								خلاطات الاسمنت - ونش رفع - مكينات الطواب الاسمنتى - مكابس البلاط وجلية - منشار رخام و جلية
 								</p>
 							</div>
 						</div>
@@ -138,9 +127,55 @@
 								<div class="thumb">
 									<img src="img/s3.jpg" alt="">									
 								</div>
-								<h4>Industrial Engineering</h4>
-								<p>
-									inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
+								<h4 class="text-center">عدد و مستلزمات ورش</h4>
+								<p class="text-right">
+								توريد كافة أنواع العدد الصغيرة و المستلزمات الخاصة بكل الورش مثل ورش النجارة و الحدادة و السباكة و الميكانيكا
+								</p>
+							</div>
+						
+						</div>
+						<div class="col-lg-4">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/s3.jpg" alt="">									
+								</div>
+								<h4 class="text-center">أحهزة هيدروليك و معدات ثقيلة</h4>
+								<p class="text-right">
+								توريد و صيانة جميع أنواع الاجهزة الهيدروليكية و الثقيلة مثل اللودرات - الحفارات –الطلمبات بجميع الانواع- الاوناش - الكراكات
+								</p>
+							</div>
+						</div>												
+						<div class="col-lg-4">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/s2.jpg" alt="">									
+								</div>
+								<h4 class="text-center">مواتير وأدوات كهربائية</h4>
+								<p class="text-right">
+								توريد ادوات الاضاءة بكل انواعها - أسلاك - أعمدة انارة الطرق - و كذلك توريد كافة الادوات و العدد و الاجهزة الكهربائية
+ و توريد العوازل الكهربائية و توريد المحولات و المولدات و توريد مانعات الصواعق و توريد الكابلات الكهربائية وأجهزة عدم انقطاع التيار
+								</p>
+							</div>
+						</div>												
+						<div class="col-lg-4">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/s3.jpg" alt="">									
+								</div>
+								<h4 class="text-center">توريدات الصاج وحدايد</h4>
+								<p class="text-right">
+								توريد جميع قطعات الحديد المسطح او الكمر او الذوية او موسير وغيرها
+								</p>
+							</div>
+						</div>												
+						<div class="col-lg-4">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="img/s3.jpg" alt="">									
+								</div>
+								<h4 class="text-center">مهمات أمن صناعى و اطفاء حريق</h4>
+								<p class="text-right">
+								توريد و تشغيل و تركيب جميع مهمات الامن الصناعى والملابس والواقيات الخاصة
 								</p>
 							</div>
 						</div>												
@@ -160,9 +195,9 @@
 								<div class="circle">
 								  <div class="inner"></div>
 								</div>
-								<h5><span class="counter">2</span>K+</h5>
+								<h5><span class="counter">123</h5>
 								<p>
-									Projects Completed
+									عمال على اكفئ وجه
 								</p>
 							</div>
 						</div>
@@ -171,9 +206,9 @@
 								<div class="circle">
 								  <div class="inner"></div>
 								</div>
-								<h5><span class="counter">5.5</span>K</h5>
+								<h5><span class="counter">756</h5>
 								<p>
-									Total Employees
+								عملاء راضون
 								</p>
 							</div>
 						</div>
@@ -184,7 +219,7 @@
 								</div>
 								<h5 class="counter">959</h5>
 								<p>
-									Happy Clients
+									مشروع صناعات معدنية
 								</p>
 							</div>
 						</div>
@@ -195,7 +230,7 @@
 								</div>
 								<h5 class="counter">367</h5>
 								<p>
-									Tickets Submited
+								مشروع توريد	
 								</p>
 							</div>
 						</div>																		
@@ -210,9 +245,9 @@
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-8 pb-30 header-text text-center">
-							<h1 class="mb-10">Latest Finished Projects</h1>
+							<h1 class="mb-10">مشاريع انتهت بالفعل</h1>
 							<p>
-								Who are in extremely love with eco friendly system..
+								و سنظل نتشرف دائما بخدمتكم
 							</p>
 						</div>
 					</div>						
@@ -248,9 +283,9 @@
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 pb-30 header-text text-center">
-							<h1 class="mb-10 text-white">Enjoy our Client’s Feedback</h1>
+							<h1 class="mb-10 text-white">اراء عملائنا</h1>
 							<p class="text-white">
-								Who are in extremely love with eco friendly system..
+								once you go 7arb you never go back ♥
 							</p>
 						</div>
 					</div>			
@@ -263,7 +298,7 @@
 							<div class="active-review-carusel">
 								<div class="single-feedback-carusel">
 									<div class="title d-flex flex-row">
-										<h4 class="text-white pb-10">Fannie Rowe</h4>
+										<h4 class="text-white pb-10">قمر حروب</h4>
 										<div class="star">
 											<span class="fa fa-star checked"></span>
 											<span class="fa fa-star checked"></span>
@@ -273,7 +308,7 @@
 										</div>										
 									</div>
 									<p class="text-white">
-										Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
+									حرب جروب نحفه قوي كل حاجه عندهم جميله حديد نضيف مش زي حديد عز بيتني حتى الموقع بتاعهم رايق و سريع و مفيد جدا هههههههههههههه
 									</p>
 								</div>
 								<div class="single-feedback-carusel">

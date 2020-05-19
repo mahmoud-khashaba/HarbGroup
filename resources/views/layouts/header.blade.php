@@ -31,10 +31,5 @@
 			<link rel="stylesheet" href="/css/owl.carousel.css">
 			<link rel="stylesheet" href="/css/owl.carousel.css">
 			<link rel="stylesheet" href="/css/main.css">
-
-			<style>
-			body {
- 			  direction: rtl;
-			}
-			</style>
+			<link rel="stylesheet" href="/css/customized/main.css">
 		</head>
