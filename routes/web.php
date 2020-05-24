@@ -71,4 +71,18 @@ Route::get('services/menu/{menu_slug}', function ($menu_slug) {
     return view('menu',compact('projects','services','menus','menu'));
 });
 
+Route::get('about', function () {
 
+     $projects = Gallery::where('type',1)->get();
+     $services = Gallery::where('type',2)->whereNull('menu_id')->get();
+     $menus = Menu::with('galleries')->get();
+    return view('about',compact('projects','services','menus'));
+});
+
+Route::get('contact', function () {
+
+     $projects = Gallery::where('type',1)->get();
+     $services = Gallery::where('type',2)->whereNull('menu_id')->get();
+     $menus = Menu::with('galleries')->get();
+    return view('contact',compact('projects','services','menus'));
+});
