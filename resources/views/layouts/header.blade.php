@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html lang="zxx" class="no-js">
+	<html dir="rtl" class="no-js">
 	<head>
 		<meta dir="rtl">
 		<!-- Mobile Specific Meta -->
@@ -7,23 +7,22 @@
 		<!-- Favicon-->
 		<link rel="shortcut icon" href="img/fav.png">
 		<!-- Author Meta -->
-		<meta name="author" content="mahmoud khashaba">
+		<meta name="author" content="mahmoud khashaba,ahmed a. zaki">
 		<!-- Meta Description -->
-		<meta name="description" content="">
+		<meta name="description" content="صخر جروب لصناعات وتوريدات الحديد">
 		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
+		<meta name="keywords" content="صخر جروب">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Industry</title>
-
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+		<title>صخر جروب</title> 
 			<!--
 			CSS
 			============================================= -->
+			<link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css" integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous">
 			<link rel="stylesheet" href="/css/linearicons.css">
 			<link rel="stylesheet" href="/css/font-awesome.min.css">
-			<link rel="stylesheet" href="/css/bootstrap.css">
+			<!-- <link rel="stylesheet" href="/css/bootstrap.css"> -->
 			<link rel="stylesheet" href="/css/magnific-popup.css">
 			<link rel="stylesheet" href="/css/nice-select.css">	
 			<link rel="stylesheet" href="/css/hexagons.min.css">							

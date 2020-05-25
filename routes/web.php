@@ -14,7 +14,7 @@ use SystemInc\LaravelAdmin\Gallery;
 use SystemInc\LaravelAdmin\Menu;
 
 
-Route::get('/', function () {
+Route::get('/home', function () {
 
 	 $projects = Gallery::where('type',1)->get();
      $services = Gallery::where('type',2)->whereNull('menu_id')->get();

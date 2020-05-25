@@ -9,12 +9,12 @@
 						<div class="banner-content col-lg-12 col-md-12 intro-main">
 							<h6>لا تنظر بعيدًا، اليك السر</h6>
 							<h1>
-							الدقة والإلتزام في الصناعة وفي توقيت التنفيذ والتسليم
+									الدقة في الصناعة والالتزام في التنفيذ والتسليم
 							</h1>
 							<p class="text-white">
-								 منذ اكثر من عشر اعوام نشأت شركة حرب جروب لتوفير معدات الصناعة<br>ننمو بفضل التزامنا ونسعي للوصول للمركز الأول في صناعة الحديد الزخرفي في مصر
+								 منذ اكثر من عشر اعوام نشأت شركة حرب جروب لتوفير معدات الصناعة <br> ننمو بفضل التزامنا ونسعي للوصول للمركز الأول في صناعة الحديد الزخرفي في مصر
 							</p>
-							<a href="#" class="primary-btn header-btn text-uppercase">المزيد</a>
+							<a href="/about" class="primary-btn header-btn text-uppercase">المزيد</a>
 						</div>												
 					</div>
 				</div>
@@ -285,7 +285,7 @@
 						<div class="col-md-12 pb-30 header-text text-center">
 							<h1 class="mb-10 text-white">اراء عملائنا</h1>
 							<p class="text-white">
-								once you go 7arb you never go back ♥
+								ثقتكم الغالية هي مصدر الهامنا، نسعى ان نرضي كل عميل بجودة و كفائة منتاجتنا
 							</p>
 						</div>
 					</div>			
@@ -308,7 +308,7 @@
 										</div>										
 									</div>
 									<p class="text-white">
-									حرب جروب نحفه قوي كل حاجه عندهم جميله حديد نضيف مش زي حديد عز بيتني حتى الموقع بتاعهم رايق و سريع و مفيد جدا هههههههههههههه
+									حرب جروب نحفه قوي كل حاجه عندهم جميله حديد نضيف مش زي حديد عز بيتني و يبوظ حتى الموقع بتاعهم رايق و سريع و مفيد جدا 
 									</p>
 								</div>
 								<div class="single-feedback-carusel">
@@ -350,7 +350,7 @@
 			
 	
 			<!-- Start blog Area -->
-			<section class="blog-area section-gap" id="blog">
+			<!-- <section class="blog-area section-gap" id="blog">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 pb-30 header-text">
@@ -431,7 +431,7 @@
 												
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- end blog Area -->	
 
 			@include('layouts.footer')

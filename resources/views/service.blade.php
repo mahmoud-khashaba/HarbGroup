@@ -6,10 +6,10 @@
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 pb-30 header-text text-center">
-							<h1 class="mb-10">Our Offered Services to you</h1>
-							<p>
+							<h1 class="mb-10">جميع الخدمات التي نقوم بها من أجلكم</h1>
+							<!-- <p>
 								Who are in extremely love with eco friendly system..
-							</p>
+							</p> -->
 						</div>
 					</div>						
 					<div class="row">
@@ -33,8 +33,8 @@
 				</div>	
 			</section>
 			<!-- End service Area -->			
-			<!-- Start cat Area -->
-			<section class="cat-area section-gap aboutus-cat" id="feature">
+			<!-- Start cat Area --> 
+			<!-- <section class="cat-area section-gap aboutus-cat" id="feature">
 				<div class="container">							
 					<div class="row">
 						<div class="col-lg-4">	
@@ -66,11 +66,11 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section> -->
 			<!-- End cat Area -->						
 
 			<!-- Start feedback Area -->
-			<section class="feedback-area aboutus-feedback section-gap" id="feedback">
+			<!-- <section class="feedback-area aboutus-feedback section-gap" id="feedback">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 pb-60 header-text text-center">
@@ -136,7 +136,7 @@
 						</div>
 					</div>
 				</div>	
-			</section>
-			<!-- End feedback Area -->
+			</section> -->
+			<!-- End feedback Area
 				
 		@include('layouts.footer')
