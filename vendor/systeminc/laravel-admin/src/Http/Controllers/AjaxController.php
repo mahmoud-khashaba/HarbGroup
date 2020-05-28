@@ -110,56 +110,18 @@ class AjaxController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function postChangeGalleryImageElementOrder(Request $request, $image_id)
+    public function postChangeGalleryImageElementOrder(Request $request, $gallery_id)
     {
         foreach ($request->order as $order_number => $id) {
-            $imageElement = GalleryElement::where(['image_id' => $image_id, 'id' => $id])->first();
+            $image = GalleryImage::where(['gallery_id' => $gallery_id, 'id' => $id])->first();
 
-            $imageElement->order_number = $order_number;
+            $image->order_number = $order_number;
 
-            $imageElement->save();
+            $image->save();
         }
 
         return 'Success';
     }
 
-    /**
-     * Change Product category order.
-     *
-     * @param Request $request
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function postChangeProductCategoryOrder(Request $request)
-    {
-        foreach ($request->order as $order_number => $id) {
-            $productCategory = ProductCategory::find($id);
-
-            $productCategory->order_number = $order_number;
-
-            $productCategory->save();
-        }
-
-        return 'Success';
-    }
-
-    /**
-     * Change product order.
-     *
-     * @param Request $request
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function postChangeProductOrder(Request $request)
-    {
-        foreach ($request->order as $order_number => $id) {
-            $product = Product::find($id);
-
-            $product->order_number = $order_number;
-
-            $product->save();
-        }
-
-        return 'Success';
-    }
+   
 }

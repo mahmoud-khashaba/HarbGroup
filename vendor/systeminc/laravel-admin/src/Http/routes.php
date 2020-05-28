@@ -50,11 +50,11 @@ Route::group(['middleware' => ['web'], 'prefix' => config('laravel-admin.route_p
 
         // ajax
         Route::group(['prefix' => 'ajax'], function () {
-            Route::post('{image_id}/change-projects-image-element-order', 'AjaxController@postChangeGalleryImageElementOrder');
+            Route::post('{image_id}/change-projects-order', 'AjaxController@postChangeGalleryImageElementOrder');
 
             Route::post('{type}/delete-projects-images/{id}', 'AjaxController@postDeleteGalleryImages');
 
-              Route::post('{image_id}/change-services-image-element-order', 'AjaxController@postChangeGalleryImageElementOrder');
+              Route::post('{image_id}/change-services-order', 'AjaxController@postChangeGalleryImageElementOrder');
 
             Route::post('{type}/delete-services-images/{id}', 'AjaxController@postDeleteGalleryImages');
             

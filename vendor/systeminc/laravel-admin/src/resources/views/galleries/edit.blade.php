@@ -29,7 +29,7 @@
 
 			@if ( count($gallery->images) )
 				<div class="gallery-wrap">
-					<ul class="image-list sortable cf" data-link="ajax/{{ $gallery->title }}/change-{{$uri}}-order">
+					<ul class="image-list sortable cf" data-link="ajax/{{ $gallery->id }}/change-{{$uri}}-order">
 						@foreach ($gallery->images as $image)
 							<li class="items-order" data-id="{{$image->id}}">
 								<div class="buttons">
