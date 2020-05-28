@@ -9,13 +9,13 @@
 		<!-- Author Meta -->
 		<meta name="author" content="mahmoud khashaba,ahmed a. zaki">
 		<!-- Meta Description -->
-		<meta name="description" content="صخر جروب لصناعات وتوريدات الحديد">
+		<meta name="description" content="حرب جروب لصناعات وتوريدات الحديد">
 		<!-- Meta Keyword -->
-		<meta name="keywords" content="صخر جروب">
+		<meta name="keywords" content="حرب جروب">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>صخر جروب</title> 
+		<title>حرب جروب</title> 
 			<!--
 			CSS
 			============================================= -->

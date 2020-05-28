@@ -2589,6 +2589,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-service .thumb img {
   width: 100%;
+  max-height: 200px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2838,7 +2839,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area {
-  padding-top: 100px;
+  padding: 50px 0;
   background-color: #04091e;
 }
 

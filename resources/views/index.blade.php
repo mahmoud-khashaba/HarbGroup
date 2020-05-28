@@ -100,7 +100,7 @@
 					
 
 			<!-- Start service Area -->
-			<section class="service-area section-gap" id="service">
+			<section class="service-area section-gap" id="service" style="text-align: right;">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-md-12 pb-30 header-text text-center">
@@ -117,7 +117,7 @@
 									<img src="img/s1.jpg" alt="">									
 								</div>
 								<h4 class="text-center">معدات التشيد والبناء</h4>
-								<p class="text-right">
+								<p>
 								خلاطات الاسمنت - ونش رفع - مكينات الطواب الاسمنتى - مكابس البلاط وجلية - منشار رخام و جلية
 								</p>
 							</div>
@@ -125,10 +125,10 @@
 						<div class="col-lg-4">
 							<div class="single-service">
 								<div class="thumb">
-									<img src="img/s3.jpg" alt="">									
+									<img src="img/s2.jpg" alt="">									
 								</div>
 								<h4 class="text-center">عدد و مستلزمات ورش</h4>
-								<p class="text-right">
+								<p>
 								توريد كافة أنواع العدد الصغيرة و المستلزمات الخاصة بكل الورش مثل ورش النجارة و الحدادة و السباكة و الميكانيكا
 								</p>
 							</div>
@@ -140,7 +140,7 @@
 									<img src="img/s3.jpg" alt="">									
 								</div>
 								<h4 class="text-center">أحهزة هيدروليك و معدات ثقيلة</h4>
-								<p class="text-right">
+								<p >
 								توريد و صيانة جميع أنواع الاجهزة الهيدروليكية و الثقيلة مثل اللودرات - الحفارات –الطلمبات بجميع الانواع- الاوناش - الكراكات
 								</p>
 							</div>
@@ -148,10 +148,10 @@
 						<div class="col-lg-4">
 							<div class="single-service">
 								<div class="thumb">
-									<img src="img/s2.jpg" alt="">									
+									<img src="img/s4.jpg" alt="">									
 								</div>
 								<h4 class="text-center">مواتير وأدوات كهربائية</h4>
-								<p class="text-right">
+								<p>
 								توريد ادوات الاضاءة بكل انواعها - أسلاك - أعمدة انارة الطرق - و كذلك توريد كافة الادوات و العدد و الاجهزة الكهربائية
  و توريد العوازل الكهربائية و توريد المحولات و المولدات و توريد مانعات الصواعق و توريد الكابلات الكهربائية وأجهزة عدم انقطاع التيار
 								</p>
@@ -160,10 +160,10 @@
 						<div class="col-lg-4">
 							<div class="single-service">
 								<div class="thumb">
-									<img src="img/s3.jpg" alt="">									
+									<img src="img/s5.jpg" alt="">									
 								</div>
 								<h4 class="text-center">توريدات الصاج وحدايد</h4>
-								<p class="text-right">
+								<p>
 								توريد جميع قطعات الحديد المسطح او الكمر او الذوية او موسير وغيرها
 								</p>
 							</div>
@@ -171,10 +171,10 @@
 						<div class="col-lg-4">
 							<div class="single-service">
 								<div class="thumb">
-									<img src="img/s3.jpg" alt="">									
+									<img src="img/s6.jpg" alt="">									
 								</div>
 								<h4 class="text-center">مهمات أمن صناعى و اطفاء حريق</h4>
-								<p class="text-right">
+								<p>
 								توريد و تشغيل و تركيب جميع مهمات الامن الصناعى والملابس والواقيات الخاصة
 								</p>
 							</div>
@@ -253,23 +253,23 @@
 					</div>						
 					<div class="row">
 						<div class="col-lg-8 col-md-8">
-							<a href="img/p1.jpg" class="img-gal">
-								<img class="img-fluid single-project" src="img/p1.jpg" alt="">
+							<a href="img/p1-min.jpg" class="img-gal">
+								<img class="img-fluid single-project" src="img/p1-min.jpg" alt="">
 							</a>	
 						</div>
 						<div class="col-lg-4 col-md-4">
-							<a href="img/p2.jpg" class="img-gal">
-								<img class="img-fluid single-project" src="img/p2.jpg" alt="">
+							<a href="img/p2-min.jpg" class="img-gal">
+								<img class="img-fluid single-project" src="img/p2-min.jpg" alt="">
 							</a>	
 						</div>						
 						<div class="col-lg-6 col-md-6">
-							<a href="img/p3.jpg" class="img-gal">
-								<img class="img-fluid single-project" src="img/p3.jpg" alt="">
+							<a href="img/p3-min.jpg" class="img-gal">
+								<img class="img-fluid single-project" src="img/p3-min.jpg" alt="">
 							</a>	
 						</div>
 						<div class="col-lg-6 col-md-6">
-							<a href="img/p4.jpg" class="img-gal">
-								<img class="img-fluid single-project" src="img/p4.jpg" alt="">
+							<a href="img/p4-min.jpg" class="img-gal">
+								<img class="img-fluid single-project" src="img/p4-min.jpg" alt="">
 							</a>	
 						</div>		
 					</div>
@@ -303,15 +303,18 @@
 											<span class="fa fa-star checked"></span>
 											<span class="fa fa-star checked"></span>
 											<span class="fa fa-star checked"></span>
-											<span class="fa fa-star"></span>
-											<span class="fa fa-star"></span>								
+											<span class="fa fa-star checked"></span>
+											<span class="fa fa-star checked"></span>								
 										</div>										
 									</div>
 									<p class="text-white">
-									حرب جروب نحفه قوي كل حاجه عندهم جميله حديد نضيف مش زي حديد عز بيتني و يبوظ حتى الموقع بتاعهم رايق و سريع و مفيد جدا 
+									سعداء جدا بالعمل مع حرب جروب فقد قامو بتوريد ابواب ذات جودة عالية جدا في الميعاد المتفق عليه وبحرفية رائعه 
+									</p>
+									<p class="text-white">
+									مساحة اعلانية لقمر جروب: قمر جروب شركة ناشئة في تصنيع الكيماويات ومستلزمات الفنادق للمزيد يمكنكم الاتصال بنا على<br> 010000000000
 									</p>
 								</div>
-								<div class="single-feedback-carusel">
+								<!-- <div class="single-feedback-carusel">
 									<div class="title d-flex flex-row">
 										<h4 class="text-white pb-10">Fannie Rowe</h4>
 										<div class="star">
@@ -340,7 +343,7 @@
 									<p class="text-white">
 										Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
 									</p>
-								</div>																
+								</div>																 -->
 							</div>
 						</div>
 					</div>

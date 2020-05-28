@@ -1,37 +1,35 @@
-		@include('layouts.header')
-		@include('layouts.nav')
-
+@include('layouts.header')
+@include('layouts.nav')
 <!-- Start service Area -->
-			<section class="service-area section-gap" id="service">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-md-12 pb-30 header-text text-center">
-							<h1 class="mb-10">جميع الخدمات التي نقوم بها من أجلكم</h1>
-							<!-- <p>
-								Who are in extremely love with eco friendly system..
-							</p> -->
+<section class="service-area section-gap" id="service">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-12 pb-30 header-text text-center">
+				<h1 class="mb-10">جميع الخدمات التي نقوم بها من أجلكم</h1>
+				<!-- <p>
+					Who are in extremely love with eco friendly system..
+				</p> -->
+			</div>
+		</div>						
+		<div class="row">
+			@foreach($service->images as $image)
+				<div class="col-lg-4">
+					<div class="single-service">
+						<div class="thumb">
+							<img src="/uploads/{{$image->source}}" alt="">									
 						</div>
-					</div>						
-					<div class="row">
-						@foreach($service->images as $image)
-
-							<div class="col-lg-4">
-								<div class="single-service">
-									<div class="thumb">
-										<img src="/uploads/{{$image->source}}" alt="">									
-									</div>
-									<h4>{{$service->title}}</h4>
-									<p>
-										inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
-									</p>
-								</div>
-							</div>
-
-						@endforeach
-															
+						<h4>{{$service->title}}</h4>
+						<!-- <p>
+							inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
+						</p> -->
 					</div>
-				</div>	
-			</section>
+				</div>
+
+			@endforeach
+												
+		</div>
+	</div>	
+</section>
 			<!-- End service Area -->			
 			<!-- Start cat Area --> 
 			<!-- <section class="cat-area section-gap aboutus-cat" id="feature">
@@ -137,6 +135,5 @@
 					</div>
 				</div>	
 			</section> -->
-			<!-- End feedback Area
 				
-		@include('layouts.footer')
+@include('layouts.footer')

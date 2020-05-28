@@ -1,5 +1,20 @@
 @include('layouts.header')
 @include('layouts.nav')
+<!-- start banner Area -->
+<section class="banner-area relative" id="home">	
+	<div class="overlay overlay-bg"></div>
+	<div class="container">				
+		<div class="row d-flex align-items-center justify-content-center">
+			<div class="about-content col-lg-12">
+				<h1 class="text-white">
+				خدمات نقدمها لكم				
+				</h1>	
+				<p class="text-white link-nav"><a href="/home">الرئيسية </a>  <span class="lnr lnr-arrow-left"></span>  <a href="/services"> خدمات</a></p>
+			</div>	
+		</div>
+	</div>
+</section>
+<!-- End banner Area -->
 <!-- Start service Area -->
 <section class="service-area section-gap" id="service">
 	<div class="container">
@@ -16,15 +31,15 @@
 				<div class="col-lg-12">
 					<div class="single-service">
 						<h4>{{$menu->title}}</h4>
-						<p>
+						<!-- <p>
 							inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
-						</p>
+						</p> -->
 						@foreach($menu->galleries as $gallery)
 							<row>
 							<h4>{{$gallery->title}}</h4>
-										<p>
+										<!-- <p>
 											inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
-										</p>
+										</p> -->
 							@foreach($gallery->images as $image)
 								<div class="col-lg-6">
 									<div class="single-service">
@@ -55,9 +70,9 @@
 							<img src="/uploads/{{$image->source}}" alt="">									
 						</div>
 						<h4>{{$service->title}}</h4>
-						<p>
+						<!-- <p>
 							inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
-						</p>
+						</p> -->
 					</div>
 				</div>
 
@@ -77,27 +92,21 @@
 				<div class="single-cat d-flex flex-column">
 					<a href="#" class="hb-sm-margin mx-auto d-block"><span class="hb hb-sm inv hb-facebook-inv"><span class="lnr lnr-magic-wand"></span></span></a>
 					<h4 class="mb-20" style="margin-top: 23px;">صناعات ثقيلة</h4>
-					<p>
-						inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why.
-					</p>
+					<p>صناعات ثقيلة</p>
 				</div>															
 			</div>
 			<div class="col-lg-4">	
 				<div class="single-cat">
 					<a href="#" class="hb-sm-margin mx-auto d-block"><span class="hb hb-sm inv hb-facebook-inv"><span class="lnr lnr-rocket"></span></span></a>
 					<h4 class="mt-40 mb-20"> توريدات معدات وأدوات</h4>
-					<p>
-						inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why.
-					</p>
+					<p>توريدات معدات وأدوات</p>
 				</div>															
 			</div>
 			<div class="col-lg-4">
 				<div class="single-cat">
 					<a href="#" class="hb-sm-margin mx-auto d-block"><span class="hb hb-sm inv hb-facebook-inv"><span class="lnr lnr-bug"></span></span></a>
 					<h4 class="mt-40 mb-20">تجهيز ورش</h4>
-					<p>
-						inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why.
-					</p>
+					<p>تجهيز ورش</p>
 				</div>							
 			</div>
 		</div>
