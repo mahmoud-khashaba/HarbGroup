@@ -13,6 +13,18 @@
 use SystemInc\LaravelAdmin\Gallery;
 use SystemInc\LaravelAdmin\Menu;
 
+Route::get('/', function () {
+
+    return redirect('/home');
+});
+
+Route::get('/home', function () {
+
+     $projects = Gallery::where('type',1)->get();
+     $services = Gallery::where('type',2)->whereNull('menu_id')->get();
+     $menus = Menu::with('galleries')->get();
+    return view('index',compact('projects','services','menus'));
+});
 
 Route::get('/home', function () {
 
