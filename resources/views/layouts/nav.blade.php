@@ -14,7 +14,7 @@
 				</div>
 				<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
 					<a dir="ltr" href="tel:+880 012 3654 896">+20100000000</a>
-					<a href="mailto:support@colorlib.com">support@colorlib.com</a>				
+					<a href="mailto:support@hargroup.com">support@harbgroup.com</a>				
 				</div>
 			</div>			  					
 		</div>

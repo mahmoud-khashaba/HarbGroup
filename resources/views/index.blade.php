@@ -298,7 +298,7 @@
 							<div class="active-review-carusel">
 								<div class="single-feedback-carusel">
 									<div class="title d-flex flex-row">
-										<h4 class="text-white pb-10">قمر حروب</h4>
+										<h4 class="text-white pb-10">قمر جروب</h4>
 										<div class="star">
 											<span class="fa fa-star checked"></span>
 											<span class="fa fa-star checked"></span>
