@@ -3,9 +3,11 @@
 }
 .dropdown-menu .dropdown-toggle::after {
     vertical-align: middle;
-    border-left: 4px solid;
-    border-bottom: 4px solid transparent;
-    border-top: 4px solid transparent;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 .dropdown-menu .dropdown .dropdown-menu {
     left: 100%;
