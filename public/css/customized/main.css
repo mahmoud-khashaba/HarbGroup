@@ -9,12 +9,6 @@ body{
     overflow-x: hidden
 }
 
-.ar-nav{
-    direction: rtl;
-    font-size: 25px!important;
-}
-
-
 .intro-main h6{
     font-size: 40px;
     letter-spacing: 0;
@@ -28,5 +22,20 @@ body{
 .intro-main p{
     font-size: 18pt;
     line-height: normal;
-
 }
+
+.dark-mode-toggle {
+    position: absolute;
+    z-index: 20;
+    top: 3.2em;
+    left: 2em;
+    color: rgb(223, 230, 238);
+    border: none;
+    /* padding: 4px; */
+    background: transparent;
+    cursor: pointer;
+    /* border-radius: 5px; */
+    width: 40px;
+    height: 40px;
+  }
+  

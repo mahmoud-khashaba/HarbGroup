@@ -18,55 +18,71 @@
 <!-- Start service Area -->
 <section class="service-area section-gap" id="service">
 	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-md-12 pb-30 header-text text-center">
-				<h1 class="mb-10">جميع الخدمات التي نقوم بها من أجلكم</h1>
-			</div>
-		</div>
 		@foreach($menus as $menu)
-		<div class="row">
-				<div class="col-lg-12">
-					<div class="single-service">
-						<h4>{{$menu->title}}</h4>
-						@foreach($menu->galleries as $gallery)
-							<row>
-							<h4>{{$gallery->title}}</h4>
-							@foreach($gallery->images as $image)
-								<div class="col-lg-6">
-									<div class="single-service">
-										<div class="thumb">
-											<img src="/uploads/{{$image->source}}" alt="">									
-										</div>
-									</div>
-								</div>
-							@endforeach
-							</row>		
+		<h1 class="text-center mt-20">{{$menu->title}}</h1>
+		@foreach($menu->galleries as $gallery)
+			<!-- Start Service gallery Area -->
+			<section class="project-area section-gap" id="project">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-8 pb-30 header-text text-center">
+							<h3 class="mb-10">{{$gallery->title}}</h3>
+						</div>
+					</div>						
+					<div class="row">
+						@foreach($gallery->images as $image)
+							<div class="col-lg-6 col-md-6">
+								<a href="/uploads/{{$image->source}}" class="img-gal">
+									<img class="img-fluid single-project" src="/uploads/{{$image->source}}" alt="">
+								</a>	
+							</div>
 						@endforeach
 					</div>
-				</div>								
-		</div>
-		@endforeach
+				</div>	
+			</section>
+			@endforeach
+			@endforeach
+
 
 		@foreach($services as $service)
-		<div class="row">
-			@foreach($service->images as $image)
-
-				<div class="col-lg-4">
-					<div class="single-service">
-						<div class="thumb">
-							<img src="/uploads/{{$image->source}}" alt="">									
-						</div>
-						<h4>{{$service->title}}</h4>
+		<!-- Start single services area -->
+		<section class="project-area section-gap" id="project">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-8 pb-30 header-text text-center">
+						<h2 class="mb-10">{{$service->title}}</h2>
 					</div>
+				</div>						
+				<div class="row">
+					@foreach($service->images as $image)
+					<div class="col-lg-6 col-md-6">
+						<a href="/uploads/{{$image->source}}" class="img-gal">
+							<img class="img-fluid single-project" src="/uploads/{{$image->source}}" alt="">
+						</a>	
+					</div>
+					@endforeach
 				</div>
-
-			@endforeach
-												
-		</div>
+			</div>	
+		</section>
 		@endforeach
-
 	</div>	
 </section>
+		
+
+		<!-- @foreach($services as $service)
+		<div class="row">
+			<h4>{{$service->title}}</h4>
+			<br>
+			@foreach($service->images as $image)
+			<div class="col-lg-6 col-md-6">
+				<a href="/uploads/{{$image->source}}" class="img-gal">
+					<img class="img-fluid single-project" src="/uploads/{{$image->source}}" alt="">
+				</a>	
+			</div>
+			@endforeach					
+		</div>
+		@endforeach -->
+	
 <!-- End service Area -->			
 <!-- Start cat Area -->
 <section class="cat-area section-gap aboutus-cat" id="feature">
