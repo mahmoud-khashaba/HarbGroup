@@ -21,9 +21,6 @@
 		<div class="row justify-content-center">
 			<div class="col-md-12 pb-30 header-text text-center">
 				<h1 class="mb-10">جميع الخدمات التي نقوم بها من أجلكم</h1>
-				<!-- <p>
-					Who are in extremely love with eco friendly system..
-				</p> -->
 			</div>
 		</div>
 		@foreach($menus as $menu)
@@ -31,36 +28,26 @@
 				<div class="col-lg-12">
 					<div class="single-service">
 						<h4>{{$menu->title}}</h4>
-						<!-- <p>
-							inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
-						</p> -->
 						@foreach($menu->galleries as $gallery)
 							<row>
 							<h4>{{$gallery->title}}</h4>
-										<!-- <p>
-											inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
-										</p> -->
 							@foreach($gallery->images as $image)
 								<div class="col-lg-6">
 									<div class="single-service">
 										<div class="thumb">
 											<img src="/uploads/{{$image->source}}" alt="">									
 										</div>
-										
 									</div>
 								</div>
 							@endforeach
 							</row>		
 						@endforeach
 					</div>
-				</div>
-												
+				</div>								
 		</div>
 		@endforeach
 
-
 		@foreach($services as $service)
-
 		<div class="row">
 			@foreach($service->images as $image)
 
@@ -70,9 +57,6 @@
 							<img src="/uploads/{{$image->source}}" alt="">									
 						</div>
 						<h4>{{$service->title}}</h4>
-						<!-- <p>
-							inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
-						</p> -->
 					</div>
 				</div>
 

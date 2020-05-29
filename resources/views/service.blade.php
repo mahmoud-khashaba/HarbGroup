@@ -1,36 +1,41 @@
 @include('layouts.header')
 @include('layouts.nav')
+<!-- start banner Area -->
+<section class="banner-area relative" id="home">	
+	<div class="overlay overlay-bg"></div>
+	<div class="container">				
+		<div class="row d-flex align-items-center justify-content-center">
+			<div class="about-content col-lg-12">
+				<h1 class="text-white">
+				{{$service->title}}				
+				</h1>	
+				<p class="text-white link-nav"><a href="index.html">الرئيسية </a>  <span class="lnr lnr-arrow-left"></span><a href="/services"> خدمات</a> <span class="lnr lnr-arrow-left"></span><a href="/services/{{$service->slug}}">{{$service->title}}</a></p>
+			</div>	
+		</div>
+	</div>
+</section>
+<!-- End banner Area -->
+
 <!-- Start service Area -->
 <section class="service-area section-gap" id="service">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-md-12 pb-30 header-text text-center">
-				<h1 class="mb-10">جميع الخدمات التي نقوم بها من أجلكم</h1>
-				<!-- <p>
-					Who are in extremely love with eco friendly system..
-				</p> -->
+			<div class="col-md-8 pb-30 header-text text-center">
+				<h1 class="mb-10">{{$service->title}}</h1>
 			</div>
 		</div>						
 		<div class="row">
-			@foreach($service->images as $image)
-				<div class="col-lg-4">
-					<div class="single-service">
-						<div class="thumb">
-							<img src="/uploads/{{$image->source}}" alt="">									
-						</div>
-						<h4>{{$service->title}}</h4>
-						<!-- <p>
-							inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct women face higher conduct.
-						</p> -->
-					</div>
+				@foreach($service->images as $image)
+				<div class="col-lg-6 col-md-6">
+					<a href="/uploads/{{$image->source}}" class="img-gal">
+						<img class="img-fluid single-project" src="/uploads/{{$image->source}}" alt="">
+					</a>	
 				</div>
-
 			@endforeach
-												
 		</div>
 	</div>	
 </section>
-			<!-- End service Area -->			
+<!-- End service Area -->			
 			<!-- Start cat Area --> 
 			<!-- <section class="cat-area section-gap aboutus-cat" id="feature">
 				<div class="container">							

@@ -44,7 +44,7 @@
 <!-- End project Area -->
 
 <!-- Start cat Area -->
-<section dir="ltr" class="cat-area section-gap aboutus-cat" id="feature">
+<!-- <section dir="ltr" class="cat-area section-gap aboutus-cat" id="feature">
 	<div class="container">							
 		<div class="row">
 			<div class="col-lg-4">	
@@ -76,11 +76,11 @@
 			</div>
 		</div>
 	</div>	
-</section>
+</section> -->
 <!-- End cat Area -->						
 
 <!-- Start feedback Area -->
-<section class="feedback-area section-gap relative" id="feedback">
+<!-- <section class="feedback-area section-gap relative" id="feedback">
 	<div class="overlay overlay-bg"></div>
 	<div class="container">
 		<div class="row justify-content-center">
@@ -147,7 +147,7 @@
 			</div>
 		</div>
 	</div>	
-</section>
+</section> -->
 <!-- End feedback Area -->
 @include('layouts.footer')
 
